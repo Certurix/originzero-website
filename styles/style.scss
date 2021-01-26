@@ -1,0 +1,28 @@
+// Custom, non-Bootstrap stuff.
+
+.site-header {
+  background: #563D7C;
+  color: white;
+}
+
+.site-footer {
+  background-color: #3c3d41;
+  color: white;
+}
+
+.site-footer .footer-copyright {
+  background-color: #333333;
+  text-align: center;
+}
+.site-footer .footer-copyright p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #d2d1d1;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+  text-decoration: none;
+  color: white;
+}
