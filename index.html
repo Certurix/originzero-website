@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Bootstrap Example Page</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="styles/libs/bootstrap/bootstrap.processed.min.css">
+  <link rel="stylesheet" href="styles/style.processed.min.css">
+  
+</head>
+
+<body>
+
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">BootPen </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <header class="site-header py-5 mb-4">
+    <div class="container">
+      <h1 class="display-4">Example Bootstrap Site</h1>
+      <p class="lead">Full-blown Bootstrap, not just the compiled version. Check out the `_variables.scss` file.</p>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="alert alert-info" role="alert">
+      <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+    </div>
+    
+    <h1>Hello, everybody.</h1>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo excepturi dolore quod, totam quos repudiandae cupiditate modi molestiae distinctio neque et nihil eveniet debitis. Sapiente quam nemo fugiat odit minus itaque, suscipit rem autem ipsam, iure dolores dicta fuga eveniet ut eaque.</p>
+    <p>Molestias error laborum, quam deserunt explicabo, neque reprehenderit totam placeat fugiat ipsum, blanditiis, provident quaerat maxime aut unde dolorum culpa incidunt assumenda vitae eveniet suscipit consectetur voluptatum id? Culpa quae, nulla modi magni. Numquam maxime voluptate animi velit. Aut ex, odio doloribus.</p>
+    <p>Deserunt ipsum sit blanditiis libero, rerum sed, tempore quod magnam assumenda fuga perspiciatis quasi. Beatae aut facilis, nulla nemo natus, vitae assumenda, odit error ad corporis, illum molestiae! Sint perferendis quae cupiditate voluptatem at, velit magnam nulla minima illo nihil. Neque, nulla!</p>
+
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Open Modal</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Launch demo modal
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repellat ea inventore, recusandae neque hic cum delectus quisquam impedit quos eligendi consequatur iure? Consectetur placeat mollitia illum, eveniet, voluptate consequuntur?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer mt-4">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5>Get started</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h5>About us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Company Information</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h5>Support</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help desk</a></li>
+            <li><a href="#">Forums</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright py-4">
+      <p>©2021 Copyright Text </p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="scripts/libs/bootstrap/bootstrap.js"></script>
+
+</body>
+
+</html>
